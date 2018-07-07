@@ -1,0 +1,34 @@
+{
+  "name": "mac-in-web",
+  "version": "1.0.0",
+  "description": "simulting mac in web",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThangaBalajiS/mac-in-web.git"
+  },
+  "keywords": [
+    "mac",
+    "javascript",
+    "web"
+  ],
+  "author": "sooperbala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThangaBalajiS/mac-in-web/issues"
+  },
+  "homepage": "https://github.com/ThangaBalajiS/mac-in-web#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "webpack": "^4.15.1"
+  }
+}
