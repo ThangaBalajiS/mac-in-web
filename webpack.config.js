@@ -12,14 +12,19 @@ module.exports = {
                 test: /\.js$/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['es2015']
+                    presets: ['es2015','react','env']
                 }
-            }
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"]
+              }
         ]
     },
     stats: {
         colors: true
     },
     devtool: 'source-map',
-    mode:'development'
+    mode:'development',
+    watch: true
 };

@@ -1,3 +1,8 @@
-import aaa from './summa';
+import React from "react";
+import ReactDOM from "react-dom";
 
-document.body.innerHTML = aaa;
+const Index = () => {
+  return <div style={{background:'red'}} >Hello React!</div>;
+};
+
+ReactDOM.render(<Index />, document.getElementById("root"));
