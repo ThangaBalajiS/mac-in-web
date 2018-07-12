@@ -1,0 +1,17 @@
+$menu-bar-bg: #E7EEF6;
+$menu-bar-height:22px;
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar-wrap{
+    background: $menu-bar-bg;
+    height: $menu-bar-height;
+    padding: 2px 20px;
+    box-sizing: border-box;
+    .logo{
+        height: 17px;
+    }
+}

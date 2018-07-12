@@ -16,15 +16,18 @@ module.exports = {
                 }
             },
             {
-                test: /\.css$/,
-                use: ["style-loader", "css-loader"]
-              }
+                test: /\.scss$/,
+                use: ["style-loader", "css-loader","sass-loader"]
+            },
+            {
+                test: /\.(png|jpg|gif)$/,
+                loader:"file-loader",
+                options:{
+                    name:'[path][name].[ext]'
+                }
+            }
         ]
     },
-    stats: {
-        colors: true
-    },
-    devtool: 'source-map',
     mode:'development',
     watch: true
 };
