@@ -6,8 +6,8 @@ class MenuBar extends React.Component{
 
     render(){
         return (
-            <div class="menu-bar-wrap" >
-                <img class="logo" src={logo} alt="Apple Logo" />
+            <div className="menu-bar-wrap" >
+                <img className="logo" src={logo} alt="Apple Logo" />
             </div>
         );
     }

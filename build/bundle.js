@@ -108,6 +108,29 @@ eval("module.exports = __webpack_require__.p + \"img/apple-256x256.png\";\n\n//#
 
 /***/ }),
 
+/***/ "./img/wallpaper.jpg":
+/*!***************************!*\
+  !*** ./img/wallpaper.jpg ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/wallpaper.jpg\";\n\n//# sourceURL=webpack:///./img/wallpaper.jpg?");
+
+/***/ }),
+
+/***/ "./js/components/home-screen.js":
+/*!**************************************!*\
+  !*** ./js/components/home-screen.js ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _wallpaper = __webpack_require__(/*! ../../img/wallpaper.jpg */ \"./img/wallpaper.jpg\");\n\nvar _wallpaper2 = _interopRequireDefault(_wallpaper);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar HomeScreen = function HomeScreen() {\n\n    return _react2.default.createElement(\n        'div',\n        { className: 'miw-home-screen' },\n        ' ',\n        _react2.default.createElement('img', { src: _wallpaper2.default, alt: 'wallpaper' }),\n        ' '\n    );\n};\n\nexports.default = HomeScreen;\n\n//# sourceURL=webpack:///./js/components/home-screen.js?");
+
+/***/ }),
+
 /***/ "./js/components/menu-bar.js":
 /*!***********************************!*\
   !*** ./js/components/menu-bar.js ***!
@@ -116,7 +139,7 @@ eval("module.exports = __webpack_require__.p + \"img/apple-256x256.png\";\n\n//#
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _apple256x = __webpack_require__(/*! ../../img/apple-256x256.png */ \"./img/apple-256x256.png\");\n\nvar _apple256x2 = _interopRequireDefault(_apple256x);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar MenuBar = function (_React$Component) {\n    _inherits(MenuBar, _React$Component);\n\n    function MenuBar() {\n        _classCallCheck(this, MenuBar);\n\n        return _possibleConstructorReturn(this, (MenuBar.__proto__ || Object.getPrototypeOf(MenuBar)).apply(this, arguments));\n    }\n\n    _createClass(MenuBar, [{\n        key: 'render',\n        value: function render() {\n            return _react2.default.createElement(\n                'div',\n                { 'class': 'menu-bar-wrap' },\n                _react2.default.createElement('img', { 'class': 'logo', src: _apple256x2.default, alt: 'Apple Logo' })\n            );\n        }\n    }]);\n\n    return MenuBar;\n}(_react2.default.Component);\n\nexports.default = MenuBar;\n\n//# sourceURL=webpack:///./js/components/menu-bar.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _apple256x = __webpack_require__(/*! ../../img/apple-256x256.png */ \"./img/apple-256x256.png\");\n\nvar _apple256x2 = _interopRequireDefault(_apple256x);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar MenuBar = function (_React$Component) {\n    _inherits(MenuBar, _React$Component);\n\n    function MenuBar() {\n        _classCallCheck(this, MenuBar);\n\n        return _possibleConstructorReturn(this, (MenuBar.__proto__ || Object.getPrototypeOf(MenuBar)).apply(this, arguments));\n    }\n\n    _createClass(MenuBar, [{\n        key: 'render',\n        value: function render() {\n            return _react2.default.createElement(\n                'div',\n                { className: 'menu-bar-wrap' },\n                _react2.default.createElement('img', { className: 'logo', src: _apple256x2.default, alt: 'Apple Logo' })\n            );\n        }\n    }]);\n\n    return MenuBar;\n}(_react2.default.Component);\n\nexports.default = MenuBar;\n\n//# sourceURL=webpack:///./js/components/menu-bar.js?");
 
 /***/ }),
 
@@ -128,7 +151,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\n__webpack_require__(/*! ../css/style.scss */ \"./css/style.scss\");\n\nvar _menuBar = __webpack_require__(/*! ./components/menu-bar */ \"./js/components/menu-bar.js\");\n\nvar _menuBar2 = _interopRequireDefault(_menuBar);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Index = function Index() {\n  return _react2.default.createElement(\n    \"div\",\n    null,\n    _react2.default.createElement(_menuBar2.default, null)\n  );\n};\n\n_reactDom2.default.render(_react2.default.createElement(Index, null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./js/index.js?");
+eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\n__webpack_require__(/*! ../css/style.scss */ \"./css/style.scss\");\n\nvar _menuBar = __webpack_require__(/*! ./components/menu-bar */ \"./js/components/menu-bar.js\");\n\nvar _menuBar2 = _interopRequireDefault(_menuBar);\n\nvar _homeScreen = __webpack_require__(/*! ./components/home-screen */ \"./js/components/home-screen.js\");\n\nvar _homeScreen2 = _interopRequireDefault(_homeScreen);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Index = function Index() {\n          return _react2.default.createElement(\n                    \"div\",\n                    null,\n                    _react2.default.createElement(_homeScreen2.default, null),\n                    _react2.default.createElement(_menuBar2.default, null)\n          );\n};\n\n_reactDom2.default.render(_react2.default.createElement(Index, null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./js/index.js?");
 
 /***/ }),
 
@@ -139,7 +162,7 @@ eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/i
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body {\\n  margin: 0;\\n  padding: 0; }\\n\\n.menu-bar-wrap {\\n  background: #E7EEF6;\\n  height: 22px;\\n  padding: 2px 20px;\\n  box-sizing: border-box; }\\n  .menu-bar-wrap .logo {\\n    height: 17px; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./css/style.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
+eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"body {\\n  margin: 0;\\n  padding: 0; }\\n\\n.menu-bar-wrap {\\n  background: #E7EEF6;\\n  height: 22px;\\n  padding: 2px 10px;\\n  box-sizing: border-box; }\\n  .menu-bar-wrap .logo {\\n    height: 17px;\\n    padding: 0 10px; }\\n\\n.miw-home-screen img {\\n  height: 100vh;\\n  width: 100%;\\n  position: absolute;\\n  z-index: -1; }\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./css/style.scss?./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js");
 
 /***/ }),
 
