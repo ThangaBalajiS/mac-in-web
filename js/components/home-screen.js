@@ -1,5 +1,5 @@
 import React from 'react';
-import wallpaper from '../../img/wallpaper.jpg';
+import wallpaper from '../../img/wallpaper-md.jpg';
 
 const HomeScreen = () => {
 
