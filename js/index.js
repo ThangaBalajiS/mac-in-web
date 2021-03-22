@@ -46,7 +46,7 @@ class Main extends React.Component {
   }
 }
 
-var lStorage = JSON.parse(localStorage.store);
+var lStorage = JSON.parse(localStorage.store || "{}");
 
 var store = configStore( lStorage );
 ReactDOM.render(
