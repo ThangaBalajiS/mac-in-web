@@ -23,7 +23,7 @@ class Main extends React.Component {
       function() {
         this.setState({ loading: false });
       }.bind(this),
-      50
+      3000
     );
   }
 

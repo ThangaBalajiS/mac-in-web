@@ -5,7 +5,7 @@ class AppWrap extends React.Component{
         return (
             <div className="miw-app-wrap" >
                 <div className="miw-app-wrap-top-bar" draggable={true} >
-                {this.props.appName}
+                {/* {this.props.appName} */}
                 </div>
                 <div className="miw-app-wrap-content" >
                     {this.props.children}

@@ -46,3 +46,29 @@
     width: 10px;
     transform: rotate(45deg) translateX(-50%);
 }
+
+.btm-bar{
+    height: 80px;
+    position: fixed;
+    background: #c8e8e6a6;
+    bottom: 0;
+    transform: translateX(-50%);
+    display: flex;
+    left: 50%;
+    border-top-left-radius: 7px;
+    padding: 10px;
+    border-top-right-radius: 7px;
+    box-sizing: border-box;
+}
+
+.btm-bar img.btm-bar-icon{
+    height: 60px;
+    padding: 0 5px 5px 0;
+    transition: all 200ms ease-out;
+}
+
+.btm-bar img.btm-bar-icon:hover{
+    height: 80px;
+    /* transform-origin: bottom; */
+    transform: translateY(-20px);
+}
