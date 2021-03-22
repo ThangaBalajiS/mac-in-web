@@ -7,25 +7,6 @@ body{
     user-select: none;
 }
 
-.menu-bar-wrap{
-    background: $menu-bar-bg;
-    height: $menu-bar-height;
-    padding: 2px 10px;
-    box-sizing: border-box;
-    box-shadow: 14px -50px 50px 43px #000;
-    display: flex;
-    .logo{
-        height: 17px;
-        padding: 0 10px;
-    }
-    .left-things{
-        flex-basis: 50%;
-    }
-    .right-things{
-        flex-basis: 50%;
-    }
-}
-
 .miw-home-screen{
     img{
         height: 100vh;

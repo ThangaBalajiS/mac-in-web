@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from '../../img/apple-256x256.png';
-import DateAndTime from './tiny-stuff/dateTime';
+import logo from '../../../img/apple-256x256.png';
+import DateAndTime from '../tiny-stuff/dateTime';
+
+import './menu.scss';
 
 class MenuBar extends React.Component{
 

@@ -1,0 +1,47 @@
+
+.miw-loadscreen-wrap{
+    background: #fff;
+    height: 100vh;
+
+    .miw-loadscreeen-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.miw-loadscreen-logo {
+    width: 100px;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        opacity: 0.4;
+    }
+}
+
+.miw-loadscreen-bar{
+    width: 250px;
+    height: 5px;
+    background: #e3e3e3;
+    margin-top: 70px;
+    border-radius: 5px;
+
+    .miw-loadscreen-inner{
+        height: 100%;
+        animation-name: init-loading;
+        animation-duration: 5s;
+        border-radius: 5px;
+        background: #000000;
+    }
+}
+
+@keyframes init-loading {
+    0%   {width: 0%;}
+    20%  {width: 10%;}
+    40%  {width: 40%;}
+    60%  {width: 70%;}
+    70%  {width: 80%;}
+    80%  {width: 90%;}
+    100% {width: 100%;}
+}
